@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@media (max-width: 768px) {
+    .tudo {
+        font-size: 0.8rem;
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 0.9rem;
+    width: calc(100% / 0.9);
+    display: block;
+    transform: scale(0.9);
+    transform-origin: top left;
+    zoom: 10vh;
+    text-align: center;
+}
+
+html {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 100%;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+.hospitalimg {
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 47.5vh;
+    left: 10%;
+    margin-left: 444px;
+}
+
+.conheca-alguns-container {
+    margin-top: -65%;
+    position: absolute;
+    top: 1200px;
+    left: 350px;
+    font-size: 59px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    display: inline-block;
+    width: 1013px;
+    height: 201px;
+    color: #fff;
+    font-family: poppins;
+}
+
+.conheca-alguns {
+    font-family: poppins;
+    color: #fff;
+    font-weight: 600;
+}
+
+.servicos-publicos, .brasil {
+    font-weight: 800;
+    color: #f3b95a;
+}
+
+.do {
+    color: #fff;
+    font-weight: 600;
+    font-family: Poppins;
+}
+
+.span {
+    font-weight: 800;
+    font-family: Poppins;
+}
+
+.fundo1 {
+    background-color: #e4cdc7;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tudo {
+    margin: 0;
+    margin-top: -1vh;
+    font-size: 64px;
+    width: 100%;
+    position: relative;
+    background-color: #e4cdc7;
+    overflow: hidden;
+    text-align: left;
+    color: #fff;
+    font-family: Poppins;
+    height: auto;
+
+}
+
+.rectangle-div {
+    margin-top: -63%;
+    position: absolute;
+    top: 1520px;
+    left: -483px;
+    box-shadow: -6px 8px 11.8px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    background-color: #d9d9d9;
+    width: 2000px;
+    height: 361px;
+}
+
+.estar-com-a-container {
+    margin-top: -63%;
+    position: absolute;
+    top: 1575px;
+    left: 43px;
+    font-size: 55px;
+    letter-spacing: 0.01em;
+    display: inline-block;
+    width: 1200px;
+    height: 194px;
+    color: #006182;
+}
+
+.facilitando-a {
+    font-weight: 600;
+}
+
+.em-dia {
+    color: #198168;
+}
+
+.em-dia2 {
+    color: #f3b95a;
+}
+
+.b {
+    color: #006182;
+}
+
+.fundo2 {
+    margin-top: 80vh;
+    background-color: #e4cdc7;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.faq-grid {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar linha se necessário */
+    justify-content: center; /* Centraliza os itens */
+    gap: 20px; /* Espaço entre as caixas */
+    margin-top: -1250px; /* Ajuste a altura conforme necessário */
+    padding: 0;
+}
+
+.pergunta-resposta {
+    flex: 1 1 calc(30% - 20px); /* Cada caixa ocupa 30% da largura, com espaço para o gap */
+    max-width: 450px; /* Define um limite máximo para o tamanho */
+    margin-bottom: 10px;
+    position: relative;
+    color: #FFF;
+    transform-style: preserve-3d;
+}
+
+.pergunta-resposta:hover .card {
+    transform: rotateY(180deg);
+}
+
+.pergunta-resposta:hover .card-back {
+    display: flex;
+}
+
+.card {
+    width: 450px;
+    height: 400px;
+    position: relative;
+    transform-style: preserve-3d; /* Permite o efeito 3D dentro da .card */
+    transition: transform 0.6s ease-in-out;
+    transform-origin: center;
+    margin: 0 auto;
+}
+
+.card-front,
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 50px;
+}
+
+.card-front {
+    font-family: Poppins;
+    font-size: 65px;
+    font-weight: 700;
+    background-color: #198168;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.card-back {
+    text-align: left;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    background-color: #006182;
+    transform: rotateY(180deg);
+}
+
+.card-1 .card-front{
+    line-height: 75px;
+    background-color: #006182;
+}
+
+.card-1 .card-back{
+    background-color: #003B4F;
+}
+
+.card-2 .card-back {
+    background-color: #D29841;
+
+}
+
+.card-2 .card-front {
+    line-height: 75px;
+    background-color: #F3B95A;
+}
+
+.card-3 .card-front{
+    background-color: #F6794A;
+}
+
+.card-3 .card-back{
+    background-color: #BF5C37;
+}
+
+.card-4 .card-front {
+    background-color: #198168;
+    line-height: 75px;
+}
+
+.card-4 .card-back {
+    background-color: #063F32;
+}
+
+.card-5 .card-front{
+    background-color: #006182;
+}
+
+.card-5 .card-back {
+    background-color: #003B4F;
+    font-size: 34.5px;
+}
